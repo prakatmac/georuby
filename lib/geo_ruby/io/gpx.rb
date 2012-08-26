@@ -1,5 +1,4 @@
 require "rubygems"
-require "nokogiri"
 
 module GeoRuby
   module Gpx4r
