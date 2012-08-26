@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.email = %q{x@nofxx.com}
 
   #s.extensions = ["ext/georuby/extconf.rb"]
-  s.files = Dir.glob("{lib,spec}/**/*") + %w(README.rdoc Rakefile)
+  s.files = Dir.glob("{lib,test}/**/*") + %w(README.rdoc Rakefile)
 
   s.homepage = %q{http://github.com/nofxx/georuby}
   s.require_paths = ["lib"]

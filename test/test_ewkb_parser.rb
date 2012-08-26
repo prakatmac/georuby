@@ -26,8 +26,6 @@ class TestEWKBParser < Test::Unit::TestCase
     assert_equal(Point.from_x_y(4.906455,52.377953),point)
   end
 
-  
-  
   def test_point3dz
     @hex_ewkb_parser.parse("01010000A07B000000CDCCCCCCCCCC28406666666666A646400000000000000CC0")
     point = @factory.geometry

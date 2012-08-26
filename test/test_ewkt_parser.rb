@@ -3,7 +3,6 @@ $:.unshift(File.dirname(__FILE__) + '/../lib')
 require 'geo_ruby'
 require 'test/unit'
 
-
 include GeoRuby::SimpleFeatures
 
 class TestEWKTParser < Test::Unit::TestCase
