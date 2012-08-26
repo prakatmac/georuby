@@ -127,7 +127,7 @@ module GeoRuby
       #WKT geometry type
       def text_geometry_type #:nodoc:
         "LINESTRING"
-      end
+      end      
 
       #georss simple representation
       def georss_simple_representation(options) #:nodoc:
